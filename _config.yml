@@ -4,6 +4,7 @@ author: LGD.HuaOPER
 email:  1094360174@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   LGD.HuaOPER, LGD.HuaFEEng——The goal is to be a full stack engineer.
+time: "2019-02-01"
 
 # Site URL NOTE: if your site is base on subdir /blog you should change base to "/blog"
 domain: "https://lgdhuaoper.github.io" # the domain URL for your site

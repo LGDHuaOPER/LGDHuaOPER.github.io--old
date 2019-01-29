@@ -1,5 +1,5 @@
 {
-  "name": "LGDHuaOPER.github.io",
+  "name": "lgdhuaoper.github.io",
   "homepage": "https://github.com/LGDHuaOPER/LGDHuaOPER.github.io",
   "authors": [
     "LGDHuaOPER <861635051@qq.com>"
@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "jquery": "^3.3.1",
-    "bootstrap": "^4.2.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "bootstrap": "3.4.0"
   }
 }

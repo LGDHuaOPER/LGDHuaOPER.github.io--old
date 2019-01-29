@@ -38,10 +38,13 @@
 	</style>
 	<style>
 		.index__top {
-			z-index: 2;
+			height: 85px;
+			z-index: 1;
 		}
 		.index__body {
-			z-index: 1;
+			position: relative;
+			top: -85px;
+			z-index: -1;
 		}
 
 		.jumbotron {
@@ -86,7 +89,7 @@
 	<div class="index__body">
 		<div class="jumbotron">
 		    <div class="container-fluid">
-		        <p id="article__entry"><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">进入文章列表</a></p>
+		        <p id="article__entry"><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">&gt;&gt;文章列表</a></p>
 		    </div>
 		</div>
 	</div>

@@ -38,13 +38,15 @@
 	</style>
 	<style>
 		.index__top {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
 			height: 85px;
-			z-index: 1;
+			z-index: 2;
 		}
 		.index__jumbotron {
-			position: relative;
-			top: -85px;
-			z-index: -1;
+			z-index: 1;
 		}
 
 		.index__jumbotron .jumbotron {
@@ -80,6 +82,7 @@
 
 		#myAffix {
 			top: 0;
+			width: 100%;
 		}
 
 		.affix-top {

@@ -83,7 +83,7 @@
 		}
 
 		.affix-top {
-			position: fixed;
+			position: static;
 		}
 
 		.index__body>div {
@@ -104,11 +104,13 @@
 		        <p id="article__entry"><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">&gt;&gt;文章列表</a></p>
 		    </div>
 		</div>
-		<div id="myAffix" data-spy="affix">
-		  ...附加费大理石
-		  发快递三
-		  ...附加费大理石
-		  发快递三
+		<div class="affixWrap">
+			<div id="myAffix" data-spy="affix">
+			  ...附加费大理石
+			  发快递三
+			  ...附加费大理石
+			  发快递三
+			</div>
 		</div>
 		<br>
 		<br>
@@ -233,7 +235,8 @@
     	$(function(){
     		$('body').innerHeight($('body').innerHeight() - 84);
     		$('#myAffix').affix({ 
-    			offset: { top: 100 }, 
+    			offset: { top: 10 },
+    			target: $('.affixWrap')
     		});
     	});
     </script>

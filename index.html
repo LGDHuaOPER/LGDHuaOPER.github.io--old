@@ -99,7 +99,7 @@
 		</div>
 	</div>
 	<div class="index__body">
-		<div id="myAffix">
+		<div id="myAffix" data-spy="affix">
 		  ...附加费大理石
 		  发快递三
 		</div>
@@ -222,7 +222,7 @@
     	$(function(){
     		$('body').innerHeight($('body').innerHeight() - 84);
     		$('#myAffix').affix({ 
-    			offset: { top: 10, bottom: function () { return (this.bottom = $('.footer').outerHeight(true)); } }, 
+    			offset: { top: 10 }, 
     			target: $('.index__body') 
     		});
     	});

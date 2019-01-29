@@ -12,10 +12,10 @@ base: ""  # the relative path that different with domain so you can test locally
 # Source PATH
 postfile: "/db/Postfile" # the Database
 sitefile: "/db/Sitefile" # the Database
-resource_path: "/resource/"
-js_path: "/resource/js/"
-css_path: "/resource/css/"
-img_path: "/resource/img/"
+resource_path: "/resource"
+js_path: "/resource/js"
+css_path: "/resource/css"
+img_path: "/resource/img"
 
 # pagination
 page_size: 3

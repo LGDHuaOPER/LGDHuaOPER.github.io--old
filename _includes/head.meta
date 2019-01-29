@@ -7,4 +7,4 @@
 <link rel="icon" href="{{ site.img_path }}{{ site.icon_subpath }}" type="image/x-icon" />
 <link rel="shortcut icon" href="{{ site.img_path }}{{ site.icon_subpath }}" type="image/x-icon" />
 <link rel="canonical" href="{{ site.domain }}{{ page.url | replace:'index.html',''">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.domain }}/db/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.domain }}/feed.xml">

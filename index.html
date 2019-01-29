@@ -78,8 +78,15 @@
 			-o-transform: translateX(-80px); 	/* Opera */
 		}
 
-		.index__body>div {
+		#myAffix {
 			top: 0;
+		}
+
+		.affix-top {
+			position: fixed;
+		}
+
+		.index__body>div {
 		}
 	</style>
 
@@ -97,9 +104,9 @@
 		        <p id="article__entry"><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">&gt;&gt;文章列表</a></p>
 		    </div>
 		</div>
-	</div>
-	<div class="index__body">
 		<div id="myAffix" data-spy="affix">
+		  ...附加费大理石
+		  发快递三
 		  ...附加费大理石
 		  发快递三
 		</div>
@@ -214,6 +221,10 @@
 		<br>
 		<br>
 	</div>
+	<div class="index__body">
+		
+		
+	</div>
 	
     <!-- jQuery -->
     <script src="{{ site.js_path }}{{ site.jquery_subpath }}"></script>
@@ -222,8 +233,7 @@
     	$(function(){
     		$('body').innerHeight($('body').innerHeight() - 84);
     		$('#myAffix').affix({ 
-    			offset: { top: 10 }, 
-    			target: $('.index__body') 
+    			offset: { top: 100 }, 
     		});
     	});
     </script>

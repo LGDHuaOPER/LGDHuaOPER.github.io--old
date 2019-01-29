@@ -5,7 +5,7 @@
 <head>
     <title>{{ site.title }}</title>
     {% include head.meta %}
-    <link rel="stylesheet" href="{{ site.css_path }}{{ site.bootstrap_css_subpath }}">
+    <link rel="stylesheet" href="{{ site.bootstrap_css_path }}">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
     </div>
     
     <!-- jQuery -->
-    <script src="{{ site.js_path }}/{{ site.jquery_subpath }}"></script>
-    <script src="{{ site.js_path }}/{{ site.bootstrap_js_subpath }}"></script>
+    <script src="{{ site.jquery_path }}"></script>
+    <script src="{{ site.bootstrap_js_path }}"></script>
 </body>
 
 </html>

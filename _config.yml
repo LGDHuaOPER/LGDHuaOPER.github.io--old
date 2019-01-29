@@ -9,25 +9,27 @@ description: > # this means to ignore newlines until "baseurl:"
 domain: "https://lgdhuaoper.github.io" # the domain URL for your site
 base: ""  # the relative path that different with domain so you can test locally
 
-# Source URL NOTE: end with / cause it's [URL + FILE]
-w3c_url: "/w3c/"  # the base url of css js and images
-images_url: "/w3c/images/" # the base url of post images
+# Source PATH
 postfile: "/db/Postfile" # the Database
 sitefile: "/db/Sitefile" # the Database
+resource_path: "/resource/"
+js_path: "/resource/js/"
+css_path: "/resource/css/"
+img_path: "/resource/img/"
 
 # pagination
 page_size: 3
 
 # comment settings
-duoshuo_short_name: "sbys" # the user of user.domain.com
-duoshuo_user_uid: "6324572809590735618" # the admin user uid
-duoshuo_user_name: "xk" # the admin user name
-duoshuo_max_depth: "2"  # the max_depth setting in duoshuo comments
 
-# 3rd URL
-duoshuo_url: "/w3c/duoshuo/embed.min.js" # the local duoshuo comment plugin, you can change it to remote "http://static.duoshuo.com/"
-jquery_url: "/w3c/js/jquery-3.1.0.min.js" # use cdn http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js
-baiduTemplate_url: "/w3c/js/baiduTemplate.js" #use local
+# subPATH
+jquery_subpath: "lib/jquery.min.js"
+bootstrap_js_subpath: "lib/bootstrap.min.js"
+moment_subpath: "lib/moment.min.js"
+baiduTemplate_subpath: "lib/baiduTemplate.js"
+bootstrap_css_subpath: "lib/bootstrap.min.css"
+
+# key
 google_analytics_id: ""
 baidu_tongji_id: ""
 

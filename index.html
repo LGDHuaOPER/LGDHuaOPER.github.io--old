@@ -1,11 +1,12 @@
---- ---
+---
+---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <title>{{ site.title }}</title>
     {% include head.meta %}
-    <link rel="stylesheet" href="{{ site.bootstrap_css_path }}">
+    <link rel="stylesheet" href="{{ site.css_path }}{{ site.bootstrap_css_subpath }}">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
         </div>
     </div>
-    
+
     <!-- jQuery -->
-    <script src="{{ site.jquery_path }}"></script>
-    <script src="{{ site.bootstrap_js_path }}"></script>
+    <script src="{{ site.js_path }}{{ site.jquery_subpath }}"></script>
+    <script src="{{ site.js_path }}{{ site.bootstrap_js_subpath }}"></script>
 </body>
 
 </html>

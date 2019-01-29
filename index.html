@@ -42,7 +42,16 @@
 		}
 
 		.jumbotron .container-fluid {
+			position: relative;
+			padding-left: 0;
+			padding-right: 0;
 			overflow: hidden;
+		}
+
+		#article__entry {
+			position: absolute;
+			bottom: 10vh;
+			margin: 0 auto;
 		}
 	</style>
 
@@ -55,7 +64,7 @@
     <div class="jumbotron">
         <div class="container-fluid">
             <img src="{{ site.img_path }}index/index.jpg" alt="首屏">
-            <p><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">进入文章列表</a></p>
+            <p id="article__entry"><a class="btn btn-primary btn-lg" href="{{ site.html_path }}article.html" role="button">进入文章列表</a></p>
         </div>
     </div>
 	

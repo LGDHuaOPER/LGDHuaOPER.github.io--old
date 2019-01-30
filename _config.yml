@@ -30,6 +30,7 @@ bootstrap_js_subpath: "lib/bootstrap.min.js"
 moment_subpath: "lib/moment.min.js"
 baiduTemplate_subpath: "lib/baiduTemplate.js"
 bootstrap_css_subpath: "lib/bootstrap.min.css"
+fontawesome_css_subpath: "lib/fontawesome-5.7.0.all.min.css"
 icon_subpath: "LGD.ico"
 
 # key

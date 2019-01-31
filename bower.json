@@ -24,7 +24,8 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "moment": "^2.24.0",
-    "bootstrap": "3.3.7"
+    "bootstrap": "3.3.7",
+    "SVG-Loaders": "svg-loaders#^1.0.2"
   },
   "devDependencies": {
     "Font-Awesome": "^5.7.0"
